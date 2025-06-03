@@ -27,4 +27,7 @@ public class PageTemplateBase extends EntityBase {
 
 	private int pageNumber = 0;
 
+	@Column(name = "scan_full_text")
+	private boolean scanFullText = false;
+
 }

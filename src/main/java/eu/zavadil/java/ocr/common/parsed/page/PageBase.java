@@ -35,4 +35,5 @@ public class PageBase extends EntityBase {
 
 	private String stateMessage;
 
+	private String fullText;
 }
