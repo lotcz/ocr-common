@@ -33,7 +33,10 @@ public class PageBase extends EntityBase {
 	@JdbcType(PostgreSQLEnumJdbcType.class)
 	private DocumentState state = DocumentState.Waiting;
 
+	@Column(columnDefinition = "TEXT")
 	private String stateMessage;
 
+	@Column(columnDefinition = "TEXT")
 	private String fullText;
+
 }

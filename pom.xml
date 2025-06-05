@@ -13,7 +13,7 @@
 	</parent>
 	<groupId>eu.zavadil.java</groupId>
 	<artifactId>ocr-common</artifactId>
-	<version>1.3.0</version>
+	<version>1.3.2</version>
 	<name>ocr-common</name>
 	<description>Common classes for OCR (Okarina).</description>
 	<properties>
